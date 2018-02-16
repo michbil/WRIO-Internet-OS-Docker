@@ -22,7 +22,7 @@ login:
   command: sh -c "cd /srv/www && cp /srv/config/config.json . && node server.js"
 
 pinger:
-  image: webrunes/titter-wrio-app
+  image: webrunes/pinger-wrio-app
   ports:
    - "5001:5001"
   restart: always
