@@ -87,12 +87,12 @@ core:
 #   - "./parity/:/root/"
 #  command: --chain=ropsten --jsonrpc-interface all --jsonrpc-hosts all
 
-iframely:
-  image: tsaikd/iframely
-  ports:
-  - "5006:5006"
-  volumes:
-  - ./iframely/config.local.js:/iframely/config.local.js
+#iframely:
+#  image: tsaikd/iframely
+#  ports:
+#  - "5006:5006"
+#  volumes:
+#  - ./iframely/config.local.js:/iframely/config.local.js
 
 
 #rabbitmq:
